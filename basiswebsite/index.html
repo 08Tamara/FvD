@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-	
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="author" content="jouw naam">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
+
 	<title>Ghibli Collection</title>
-	
+
 	<link href="styles/style.css" rel="stylesheet">
 	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -18,37 +20,75 @@
 	</header>
 	<main>
 		<section>
-			<img src="images/childhood-howl.jpg" alt="childhood-howl">
-			<h2>Howl's Moving Castle</h2>
-			<p>2004 / 120 min </p>
-			<p>Directed by: Hayao Miyazaki</p>
-			<p>Produced by: Rick Dempsey, Ned Lott, Toshio Suzuki</p>
-			<p>Written by:</p>
-			<p>$26.99</p>
-			<p>Format: Blu-Ray/DVD Steelbook</p>
-				<nav>
-					<ul>
-						<li><a href="Blu-Ray/DVD-Steelbook">Blu-Ray/DVD Steelbook</a></li>
-						<li><a href="Blu-Ray/DVD">Blu-Ray/DVD</a></li>
-						<li><a href="DVD">DVD</a></li>
-					</ul>
-				</nav>
-			
-			<p>Steelbook Bonus Features:</p>
-			<p>Exclusive Booklet</p>
-			<p>Feature-Length Storyboards</p>
-			<p>Behind The Microphone</p>
-			<p>Interview With Diana Wynne Jones</p>
-			<p>Miyazaki's Visit To Pixar</p>
-			<p>The Birth Story Of The Film Soundtrack</p>
-			<p>Explanation Theatrical Trailers</p>
-			<p>TV Spots</p>
-			<iframe width="300" height="300" src="https://www.youtube.com/embed/97giW3uTmcA?si=KAPWOGuEwpN1Duzm" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			<img class="childhood-howl-2" src="images/childhood-howl-2.jpg" alt="childhood-howl-small-picture">
 
-			
+			<div class="large-image-container">
+				<img id="largeImage" src="images/steelbook.png" alt="Large Image">
+			</div>
+
+			<div class="thumbnail-container">
+				<img src="images/steelbook.png" alt="steelbook" data-image="images/steelbook.png">
+				<img src="images/steelbook-rotated.png" alt="steelbook-rotated"
+					data-image="images/steelbook-rotated.png">
+				<img src="images/bluray.png" alt="blu-ray" data-image="images/bluray.png">
+				<img src="images/bluray-rotated.png" alt="blu-ray-rotated" data-image="images/bluray-rotated.png">
+				<img src="images/dvd.png" alt="dvd" data-image="images/dvd.png">
+				<img src="images/dvd-rotated.png" alt="dvd-rotated" data-image="images/dvd-rotated.png">
+				<img src="images/childhood-howl.jpg" alt="childhood-howl" data-image="images/childhood-howl.jpg">
+				<img src="images/howl-and-sophie.png" alt="howl-and-sophie" data-image="images/howl-and-sophie.png">
+				<img src="images/sophie-and-turniphead.png" alt="sophie-and-turniphead"
+					data-image="images/sophie-and-turniphead.png">
+				<img src="images/howl-and-sohpie-on-roof.png" alt="howl-and-sophie-on-roof"
+					data-image="images/howl-and-sohpie-on-roof.png">
+				<img src="images/calcifer.png" alt="calcifer" data-image="images/calcifer.png">
+			</div>
+
+			<h2>Howl's Moving Castle</h2>
+			<p><strong>2004 / 120 min</strong></p>
+			<p><strong>Directed by:</strong> Hayao Miyazaki</p>
+			<p><strong>Produced by:</strong> Rick Dempsey, Ned Lott, Toshio Suzuki</p>
+			<p><strong>Written by:</strong></p>
+			<p><strong class="price-text">$26.99</strong></p>
+			<p id="formatText">Format: Blu-Ray/DVD Steelbook</p>
+			<nav>
+				<button class="format-button" data-format="Blu-Ray/DVD Steelbook">Blu-Ray/DVD-Steelbook</button>
+				<button class="format-button" data-format="Blu-Ray/DVD">Blu-Ray/DVD</button>
+				<button class="format-button" data-format="DVD">DVD</button>
+			</nav>
+			<p>Quantity:</p>
+			<button id="quantityButton">
+				- <span id="quantity">1</span> +
+			</button>
+			<button>ADD TO CART</button>
+			<button>Buy with PayPal</button>
+			<a href="">More payment options</a>
+			<p>Steelbook Bonus Features:</p>
+			<ul>
+				<li>Exclusive Booklet</li>
+				<li>Feature-Length Storyboards</li>
+				<li>Behind The Microphone</li>
+				<li>Interview With Diana Wynne Jones</li>
+				<li>Miyazaki's Visit To Pixar</li>
+				<li>The Birth Story Of The Film Soundtrack</li>
+				<li>Explanation Theatrical Trailers</li>
+				<li>TV Spots</li>
+			</ul>
+			<iframe width="300" height="300" src="https://www.youtube.com/embed/97giW3uTmcA?si=KAPWOGuEwpN1Duzm"
+				title="YouTube video player"
+				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+				allowfullscreen></iframe>
 		</section>
 	</main>
+	<footer>
+		<details>
+			<summary>ABOUT</summary>
+			Studio Ghibli
+			GKIDS
+			FAQs
+			Contact Us
+		</details>
+	</footer>
 	<script defer src="scripts/script.js"></script>
 </body>
-	
+
 </html>
