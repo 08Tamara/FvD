@@ -30,35 +30,91 @@
 /****************/
 
 /* jouw code */
-header {
+
+.free-shipping {
 	display: flex;
 	justify-content: center;
-	background-color: #38527B;
+	background-color: #1c2a41;
 	position: fixed;
+	width: 100vw;
+	left: 0;
+	color: white;
+	height: 25px;
+	line-height: 25px;
+	z-index: 1000;
+	margin-top: 0em;
+	font-size: 75%;
+	font-weight: lighter;
+
+}
+
+header {
+	display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background-color: #38527B;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    left: 0;
+    color: white;
+    font-weight: bold;
+    height: 50px;
+    z-index: 1000;
+    margin-top: 1.5em;
+}
+
+.hamburger-menu {
+	position: absolute;
+	width: 70px;
+	height: auto;
+	left: 0px;
+}
+
+.search {
+	position: absolute;
+	width: 65px;
+	height: auto;
+	left: 40px;
+}
+
+.profile {
+	position: absolute;
+	width: 70px;
+	height: auto;
+	right: 40px;
+}
+
+.cart {
+	position: absolute;
+	width: 70px;
+	height: auto;
+	right: 0px;
+}
+.Home {
+	display: flex;
+	justify-content: center;
+	background-color: #f5f5f5;
+	/* position: fixed; */
 	top: 0;
 	width: 100vw;
 	left: 0;
 	color: white;
-	font-weight: bold;
 	height: 50px;
 	line-height: 50px;
 	z-index: 1000;
-}
-
-body {
-	font-family: 'Montserrat', sans-serif;
-	margin: 1em;
-	padding: 1em;
-	overflow-x: hidden;
-	padding-top: 50px;
+	margin-bottom: 5em;
+	font-size: 75%;
+	font-weight: lighter;
+	color: black;
 }
 
 .childhood-howl-2 {
 	width: 100vw;
 	height: auto;
-	margin-top: 0;
 	padding: 0;
-	margin-bottom: 7em;
+	top: 0;
+	margin-top: .9em;
 }
 
 html,
@@ -147,7 +203,7 @@ h2 {
 	color: #38527B;
 	font-size: 18px;
 	margin-bottom: 10px;
-	padding: 0.5em;
+	padding: 0;
 }
 
 .price-text {
@@ -164,11 +220,12 @@ button {
 	outline: none;
 	margin-right: 10px;
 	margin-bottom: 10px;
+	font-family: 'Montserrat', sans-serif;
 }
 
 p {
 	margin: 5px 0;
-	padding: 0.5em;
+	padding: 0;
 }
 
 #quantityButton {
@@ -199,4 +256,11 @@ details[open] {
 details[open] summary {
 	border-bottom: 1px solid #aaa;
 	margin-bottom: 0.5em;
+}
+
+img {
+	width: 100vw;
+	height: auto;
+	margin-top: 0;
+	padding: 1.2em;
 }
