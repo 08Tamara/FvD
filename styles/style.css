@@ -113,7 +113,6 @@ header {
 	margin-top: 4.6em;
 }
 
-html,
 body {
 	width: 100%;
 	height: 100%;
@@ -132,7 +131,7 @@ header h1 {
 	margin: 0;
 }
 
-.large-image-container {
+.large-image-container { /* gevraagd aan chatgpt */
 	width: 90%;
 	max-width: 300px;
 	height: 300px;
@@ -141,14 +140,14 @@ header h1 {
 	padding: 0;
 }
 
-.large-image-container img {
+.large-image-container img { /* gevraagd aan chatgpt */
 	width: 100%;
 	height: 100%;
 	object-fit: contain;
 	border: 1px solid #ccc;
 }
 
-.thumbnail-container {
+.thumbnail-container { /* gevraagd aan chatgpt */
 	display: flex;
 	gap: 5px;
 	justify-content: flex-start;
@@ -163,20 +162,20 @@ header h1 {
 	position: relative;
 }
 
-.thumbnail-container::-webkit-scrollbar {
+.thumbnail-container::-webkit-scrollbar { /* gevraagd aan chatgpt */
 	height: 5px;
 }
 
-.thumbnail-container::-webkit-scrollbar-thumb {
+.thumbnail-container::-webkit-scrollbar-thumb { /* gevraagd aan chatgpt */
 	background-color: #888;
 	border-radius: 10px;
 }
 
-.thumbnail-container::-webkit-scrollbar-thumb:hover {
+.thumbnail-container::-webkit-scrollbar-thumb:hover { /* gevraagd aan chatgpt */
 	background-color: #555;
 }
-
-.thumbnail-container img {
+ 
+.thumbnail-container img { /* gevraagd aan chatgpt */
 	width: 60px;
 	height: 60px;
 	object-fit: cover;
@@ -185,9 +184,10 @@ header h1 {
 	border: 1px solid #ccc;
 }
 
-.thumbnail-container img:hover {
+.thumbnail-container img:hover { /* gevraagd aan chatgpt */
 	transform: scale(1.1);
 }
+
 
 main {
 	margin-top: 60px;
@@ -225,12 +225,12 @@ p {
 	padding: 0;
 }
 
-#quantityButton {
+#quantityButton { /* gevraagd aan chatgpt */
 	padding: 10px;
 	font-size: 16px;
 }
 
-#quantity {
+#quantity { /* gevraagd aan chatgpt */
 	margin: 0 10px;
 }
 
@@ -257,17 +257,17 @@ p {
     padding: 0;
 }
 
-.custom-details summary::after {
+.custom-details summary::after { /* gevraagd aan chatgpt */
     content: "+"; /* Toevoegen van het plus-teken */
     font-size: 20px;
     color: white;
 }
 
-.custom-details[open] summary::after {
+.custom-details[open] summary::after { /* gevraagd aan chatgpt */
     content: "-"; /* Veranderen naar een min-teken als geopend */
 }
 
-.custom-details ul {
+.custom-details ul { /* gevraagd aan chatgpt */
     margin-top: 10px;
     padding-left: 0;
     list-style: none; /* Geen opsommingstekens */
@@ -321,14 +321,14 @@ a {
 	margin-right: 125px;
 }
 
-.button-list {
+.button-list { /* gevraagd aan chatgpt */
     list-style: none; 
     padding: 0;
     margin: 0;
     border-top: 1px solid #ddd; /* Lijn aan de bovenkant */
 }
 
-.button-list li {
+.button-list li { /* gevraagd aan chatgpt */
     border-bottom: 1px solid #ddd; /* Lijn tussen de knoppen */
 }
 
@@ -342,7 +342,7 @@ a {
     font-size: 16px;
 }
 
-.button-list li a::after {
+.button-list li a::after { /* gevraagd aan chatgpt */
     content: "\203A"; /* Unicode voor een naar rechts wijzend pijltje */
     font-size: 18px;
     color: #555; /* Grijze kleur voor het pijltje */
@@ -353,7 +353,7 @@ a {
     justify-content: center; 
 }
 
-.mononoke, .earwig {
+.mononoke, .earwig { /* gevraagd aan chatgpt */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -392,7 +392,7 @@ a {
 	font-weight: bold;
 }
 
-.knoppen {
+.knoppen { /* gevraagd aan chatgpt */
     display: grid;
     grid-template-columns: 1fr auto; /* Twee kolommen: flexibel en aangepast aan de inhoud */
     grid-template-rows: auto auto; /* Twee rijen: voor de knoppen en PayPal */
@@ -419,7 +419,7 @@ a {
     animation: none;
 }
 
-.wishlist:hover {
+.wishlist:hover { /* gevraagd aan chatgpt */
     animation: enlarge 1s forwards; /* Start animatie bij hover, gaat 1s lang door en blijft in eindtoestand */
 }
 
@@ -434,7 +434,7 @@ a {
 
 
 
-.paypal {
+.paypal { /* gevraagd aan chatgpt */
     grid-column: 1 / span 2; /* Zorg ervoor dat PayPal zich uitstrekt over beide kolommen */
     display: flex;
     justify-content: center;
@@ -601,25 +601,25 @@ a {
 	top: 0;
 }
 
-/* Light Mode */
+/* Light Mode */ /* gevraagd aan chatgpt */
 body.light-mode {
     background-color: #ffffff;
     color: #000000;
 }
 
-/* Dark Mode */
+/* Dark Mode */ /* gevraagd aan chatgpt */
 body.dark-mode {
     background-color: #1e1e1e;
     color: #ffffff;
 }
 
-/* Schakelaar stijl */
-.mode-switch {
+/* Schakelaar stijl */ /* gevraagd aan chatgpt */
+.mode-switch { 
     position: fixed;
     top: 20px;
     right: 20px;
     display: flex;
     align-items: center;
 }
-/* gevraagd aan chatgpt */
+
 

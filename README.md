@@ -150,7 +150,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
-
+  - Mijn website kan gebruikt worden met een screenreader en hij kan Engels goed uitspreken.
 </details>
 
 
@@ -164,6 +164,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  - alles staat heel erg aan de linkerkant op mijn website
 
 
   ### Agenda voor meeting
@@ -195,19 +196,19 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/eerste-pagina.png" width="375px" alt="uitomst opdracht 1">
 
 
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatjes
-
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  - ik heb geleerd hoe ik knoppen op verschillende manieren kan stylen.
+  <img src="readme-images/knoppen.png" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatjes
-
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  - ik vond het lastig om de carousel te maken zoals op de originele website, dus dat is helaas niet gelukt.
+  <img src="readme-images/carousel.png" width="375px" alt="bummer">
 </details>
 
 
@@ -223,8 +224,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. alle plaatjes zijn van https://ghiblicollection.com
+  2. ik heb ChatGPT gebruikt voor de carousel, light/dark mode, javascript en knoppen
 
 </details>
