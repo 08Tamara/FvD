@@ -40,10 +40,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   hier de naam van de pagina  
-  <img src="readme-images/Homescreen.PNG" width="375px" alt="Website Homepage">
+  Filmography
+  <img src="readme-images/filmography-screen.PNG" width="375px" alt="Website Homepage">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
+  Detailpagina
   <img src="readme-images/Detailscreen.PNG" width="375px" alt="Website detailscreen">
  
 </details>
@@ -56,8 +58,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen:
+  Lijst met je bevindingen die in de test naar voren kwamen:  
+  - Mijn website heeft voiceovers en het werkt prima, maar hij staat in het Nederlands dus hij leest    Engelse tekst niet goed.
 
+  - Voor slechtzienden is mijn website ook goed te gebruiken, vooral vanwege de plaatjes. 
 </details>
 
 
@@ -68,13 +72,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/breakdown-schets.jpg" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
-
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  <img src="readme-images/breakdown-schets-header.jpg" width="375px" alt="breakdown van een dynamisch deel">
 
 </details>
 
@@ -89,7 +90,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+  - ik heb nog niet veel HTML en CSS.
 
   ### Agenda voor meeting
   samen met je groepje opstellen
@@ -104,10 +105,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - ik moet hard doorwerken om bij te blijven.
 
 </details>
 
@@ -122,7 +120,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+  - ik heb wel meer aan mijn pagina's gewerkt, maar ik ben nog steeds niet heel ver. 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
@@ -137,10 +135,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - mijn website werd niet goed geüpload op github, maar gelukkig was dat snel opgelost.
 
 </details>
 
@@ -184,10 +179,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - bij caroussel thumbnail bar ipv div, li elements gebruiken
+  - bij de footer h2 en li gebruiken ipv summary en css misschien ::before en ::after states gebruiken
+  - surface plane lijstje afgaan, 5 dingen kiezen
 
 </details>
 

@@ -39,3 +39,30 @@ document.getElementById('quantityButton').addEventListener('click', function(eve
 
     quantitySpan.innerText = currentQuantity; 
 });
+
+
+
+// script.js
+const toggle = document.getElementById('mode-toggle');
+const body = document.body;
+
+// Controleer opgeslagen modus bij het laden van de pagina
+if (localStorage.getItem('theme') === 'dark') {
+    body.classList.add('dark-mode');
+    toggle.checked = true; // Zet de schakelaar aan
+}
+
+// Functie om modus te wijzigen
+toggle.addEventListener('change', () => {
+    if (toggle.checked) {
+        body.classList.add('dark-mode');
+        body.classList.remove('light-mode');
+        localStorage.setItem('theme', 'dark'); // Bewaar de geselecteerde modus
+    } else {
+        body.classList.remove('dark-mode');
+        body.classList.add('light-mode');
+        localStorage.setItem('theme', 'light'); // Bewaar de geselecteerde modus
+    }
+});
+
+// gevraagd aan chatgpt

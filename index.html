@@ -9,12 +9,19 @@
 	<title>Ghibli Collection</title>
 
 	<link href="styles/style.css" rel="stylesheet">
-	<link rel="icon" type="image/svg+xml" href="https://ghiblicollection.com/cdn/shop/files/Favicon_Ghibli_1_32x32.png?v=1687995219">
+	<link rel="icon" type="image/svg+xml"
+		href="https://ghiblicollection.com/cdn/shop/files/Favicon_Ghibli_1_32x32.png?v=1687995219">
 
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
+	<div class="mode-switch">
+        <label for="mode-toggle">🌞 / 🌙</label>
+        <input type="checkbox" id="mode-toggle">
+    </div> 
+	<!-- gevraagd aan chatgpt -->
+	
 	<p class="free-shipping">Free Shipping in U.S. on all orders over $50!</p>
 	<header>
 		<h1>THE STUDIO GHIBLI COLLECTION</h1>
@@ -23,11 +30,10 @@
 		<img class="profile" src="images/profile.png" alt="profile">
 		<img class="cart" src="images/cart.png" alt="cart">
 	</header>
+	<img class="childhood-howl-2" src="images/childhood-howl-2.jpg" alt="childhood-howl-small-picture">
+	<p class="Home">Home &gt; Howl's Moving Castle</p>
 	<main>
 		<section>
-			<img class="childhood-howl-2" src="images/childhood-howl-2.jpg" alt="childhood-howl-small-picture">
-			<p class="Home">Home &gt; Howl's Moving Castle</p>
-
 			<div class="large-image-container">
 				<img id="largeImage" src="images/steelbook.png" alt="Large Image">
 			</div>
@@ -65,8 +71,13 @@
 			<button id="quantityButton">
 				- <span id="quantity">1</span> +
 			</button>
-			<button>ADD TO CART</button>
-			<button>Buy with PayPal</button>
+			<div class="knoppen">
+				<button class="add-to-cart">ADD TO CART</button>
+				<img class="wishlist" src="images/wishlist.png" alt="Wishlist">
+				<div class="paypal">
+					<img src="images/paypal.png" alt="PayPal">
+				</div>
+			</div>
 			<a href="">More payment options</a>
 			<p>Steelbook Bonus Features:</p>
 			<ul>
@@ -84,15 +95,50 @@
 				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 				allowfullscreen></iframe>
 		</section>
+		<ul class="button-list">
+			<li><a href="#">About</a></li>
+			<li><a href="#">Crew & Credits</a></li>
+			<li><a href="#">Disc Information</a></li>
+		</ul>
+		<h2>RELATED PRODUCTS</h2>
+		<div class="products">
+			<div class="mononoke">
+				<img class="princess-mononoke" src="images/princess-mononoke.png" alt="princess mononoke">
+				<button class="mononoke-button">ADD TO CART</button>
+				<p class="mononoke-title">Princess Mononoke</p>
+				<p class="mononoke-price">$19.96</p>
+			</div>
+			<div class="earwig">
+				<img class="earwig-image" src="images/earwig.png" alt="earwig and the witch">
+				<button class="earwig-button">ADD TO CART</button>
+				<p class="earwig-title">Earwig and the Witch</p>
+				<p class="earwig-price">$19.98</p>
+			</div>
+		</div>
 	</main>
 	<footer>
-		<details>
+		<details class="custom-details">
 			<summary>ABOUT</summary>
-			Studio Ghibli
-			GKIDS
-			FAQs
-			Contact Us
+			<ul>
+				<li>Studio Ghibli</li>
+				<li>GKIDS</li>
+				<li>FAQs</li>
+				<li>Contact Us</li>
+			</ul>
 		</details>
+
+		<details class="custom-details">
+			<summary>INFORMATION</summary>
+			<ul>
+				<li><a href="filmography.html">Filmography</a></li>
+				<li>In Theaters</li>
+				<li>Shop</li>
+			</ul>
+		</details>
+		<h2 class="newsletter-title">NEWSLETTER SIGN UP</h2>
+		<p>Sign up for exclusive updates, new arrivals & insider only discounts</p>
+		<img class="gkids" src="images/presented-by-gkids.png" alt="presented-by-gkids">
+		<img class="socials" src="images/socials.png" alt="socials">
 	</footer>
 	<script defer src="scripts/script.js"></script>
 </body>
